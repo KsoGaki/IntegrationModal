@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-c {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.flex-r {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.menu {
+  position: absolute;
+  right: 75px;
+  top: 30px;
+  font-size: 30px!important;
+  cursor: pointer;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../pics/img2.jpeg);
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+}
+
+.container {
+  width: 45%;
+  height: 45%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.form {
+  width: 80%;
+  border: 1px solid white;
+  height: 60px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  padding-left:3%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.form input{
+  border:none;
+}
+
+.container i {
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.email {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  width: 70%;
+}
+
+.button {
+  height: 100%;
+  width: 30%;
+  background-color: #b69466;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.silver {
+  color: grey;
+}
+
+.modal {
+  top:0;
+  position: absolute;
+  z-index: 9999;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal p {
+  position: absolute;
+  top:100px;
+  right:150px;
+  cursor: pointer;
+}
+
+iframe {
+  max-width: 60%;
+}
