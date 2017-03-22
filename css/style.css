@@ -46,6 +46,7 @@ body {
   height: 100%;
   width: 100%;
   background-image: url(../pics/img2.jpeg);
+  background-size: cover;
 }
 
 .logo {
